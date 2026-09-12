@@ -212,6 +212,11 @@ does not authorize or perform an external Hermes SDK change.
 
 Source: [architecture #10](https://github.com/GabrielCoelhoCruz/hermes-pokemon-world/issues/10#issuecomment-5516601641).
 
+The [pinned upstream prerequisite audit](host-prerequisite-audit.md) confirms
+that the inspected storage API still collapses absent, malformed, and failed
+reads. It also distinguishes existing file-picker/reveal conveniences from
+the complete local-folder pack capability still to be established.
+
 ## 8. Acceptance and readiness
 
 The accepted contract defines **54 rows**, partitioned as **6 / 40 / 8** across
@@ -267,6 +272,9 @@ recovered file bytes against published hashes where supplied, including the
 handoff contract SHA-256
 `d818110cd7df9ba5ae28d1979364b57db8b557165a69d3e604e82c16650fce8c`.
 Do not create replacement ADRs under the accepted filenames from these summaries.
+
+See [recovering the canonical sources](recover-canonical-sources.md) for exact
+Mac-side checks and a separate recovery branch that leaves `master` untouched.
 
 ## 10. Handoff sequence and completion rule
 
