@@ -1,5 +1,10 @@
 # Hermes Office
 
+This fork is planning Pokémon World. See the
+[product and technical handoff draft](docs/handoff/pokemon-world-specification.md)
+for accepted decisions, source-recovery gaps, and implementation prerequisites.
+The plugin described below is still the inherited Office runtime.
+
 <img width="877" height="686" alt="Hermes_2WQOW5UiOI" src="https://github.com/user-attachments/assets/183421d0-9c23-4e9e-abc8-9390601ceea3" />
 
 
